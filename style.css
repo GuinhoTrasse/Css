@@ -1,0 +1,61 @@
+.transitions{
+    width: 200px;
+    height: 200px;
+    /*background-color: green;*/
+    transition: width 0.6s ease, height 0.6s ease;
+    animation: quadradoVerde 2s linear;
+    animation-fill-mode: forwards;
+
+}
+
+
+/*
+.transitions:hover{
+    background-color: red;
+    width: 250px;
+    height: 250px;
+}
+*/
+
+
+@keyframes quadradoVerde {
+    10%{
+        margin-left: 10px;
+    }
+
+    30%{
+        margin-left: 30%;
+    }
+
+    70%{
+        margin-left: 70%;
+    }
+
+    90%{
+        margin-left: 80%;
+    }
+
+    92%{
+        margin-left: 85%
+    }
+
+    94%{
+        margin-left: 90%
+    }
+
+    96%{
+        margin-left: 94%
+    }
+
+    98%{
+        margin-left: 97%
+    }
+
+    99%{
+        margin-left: 100%
+    }
+
+    100%{
+        margin-left: 100%
+    }
+}
