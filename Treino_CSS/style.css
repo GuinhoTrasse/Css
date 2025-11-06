@@ -1,0 +1,116 @@
+.container{
+    width: 900px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    background-color:yellow;
+}
+
+.containercima{
+    width: 100%;
+    height: 30%;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.containercima .retangulorosaesquerda{
+    width: 60%;
+    height: 90%;
+    background-color: fuchsia;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.containercima .retangulorosaesquerda .retangulolaranjaclaro{
+    width: 90%;
+    height: 60%;
+    background-color:chocolate
+}
+
+.containercima .retangulorosadireita{
+    width: 35%;
+    height: 90%;
+    background-color: fuchsia;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: end;
+    justify-content: center;
+    padding-right: 20px
+}
+
+.containercima .retangulorosadireita .retanguloazul{
+    width: 30%;
+    height: 14%;
+    background-color:rgb(19, 223, 223)
+}
+
+.containermeio{
+    width: 100%;
+    height: 7%;
+    display: flex;
+}
+
+.containermeio .retangulovermelhoesquerda{
+    width: 64.5%;
+    height: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.containermeio .retangulovermelhoesquerda .retanguloazulescuro{
+  width: 24%;
+  height: 50%;
+  background-color: blue;
+}
+
+.containermeio .retangulovermelhodireita{
+    width: 35.5%;
+    height: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 15px;
+}
+
+.containermeio .retangulovermelhodireita .retanguloverde{
+    width: 28%;
+    height: 50%;
+    background-color:chartreuse;
+}
+
+.containerbaixo{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    background-color: yellow;
+    gap:30px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+
+.containerbaixo .retangulolaranjaescuro{
+    width: 400px;
+    height: 230px;
+    background-color: chocolate;
+    display: flex;
+    align-items: end;
+}
+
+.containerbaixo .retangulolaranjaescuro .retangulomarrom{
+    width: 100%;
+    height: 12%;
+    background-color: brown;
+
+}
